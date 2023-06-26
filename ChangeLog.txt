@@ -1,0 +1,91 @@
+5/4/2022
+
+#### Version - Problem1_004
+
+- Changed shapes tag to correct tags.
+- Set userResponseQX to 0 in Start (for each question).
+- Revised all models in blender so that the origins would be in the right place to make rotations/animations easier.
+
+4/4/2022
+
+#### Version - Problem1_003
+
+- New shape animations added and code completed
+
+#### Version - Problem2_003
+
+- Controller added to scene and old scripts deleted from scene and project
+- Problem2ButtonBehavior added to project and tu buttons gameobjects
+- SaveToFile() working
+- Geometry sets correctly changing when passing question
+- Correct and wrong sounds added (checking correct response function works)
+- Shapes movement animations added
+
+#### Version - Problem1_002
+
+- Correct shape changing to green color
+- Animations of correct shapes added (movement and rotation)
+- Time between questions changed to 6s
+- Pressed button changing to grey color
+- SwitchingGeometry() coroutine changed:
+	- Destroy() line was deleted. Instead I wrote a transform.position line for making the "for" loop work during the whole problem.
+
+1/4/2022
+
+#### Version - Problem1_001
+
+- Disable pressed button in first problem
+- Geometry sets changed
+- SaveToFile() added
+
+3/31/2022
+
+#### Version - Problem2_002
+
+- New script added (problem2SavingData)
+- SaveToFile() function added to obtain reponses into a .csv
+- Wrong and right sound animations added
+- Excel file saved correctly
+
+3/30/2022
+
+#### Version - Problem2_001
+
+- Button animations (first answer button stays pressed until the second answer button is pressed)
+- Light color changed to white (so walls are not kind of yellow)
+- Buttons added to scene
+- Shadows enabled
+
+3/29/2022
+
+#### Version - SpatialVisionQuiz_001
+
+- Shapes tag added for every geometry set
+- Shapes private gameobject added to buttonBehavior.cs 
+- New animator added to each shape into each geometry set
+- Color animations created (I also added an Idle animation to both animators)
+	shapeRightColor
+	shapeWrongColor
+	ShapeRightToOriginalColor
+	ShapeWrongToOriginalColor
+- Correct animations working on each question
+
+
+3/28/2022
+
+#### Version - PhD_file 005
+
+InteractableDebugVisual.cs disabled into each button geometry
+Diferent coroutines added for deleting and instantiating geometrical sets using a timer as a public variable
+Animations added into IEnumerator for each coroutine
+	rightColor
+	wrongColor
+	rightToOriginalColor
+	wrongToOriginalColor
+
+#### Version - PhD_file 004
+Added shadows on the shapes on the table, added the Question titles, added in the test2 scene, 12 game objects for the 12 questions.
+
+#### Version - PhD_file 003
+Scene Test 1 the answers get recorded in an excel file. The button behavior script was changed.
+
